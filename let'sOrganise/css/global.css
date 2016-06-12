@@ -1,0 +1,256 @@
+/*general reset files*/
+*{
+	padding: 0;
+	margin: 0;	
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+	padding: 0;
+	margin: 0;	
+	font-size: 100%;
+	font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: bold;
+}
+
+h1 {font-size: 24px; }
+h2 {font-size: 22px; }
+h3 {font-size: 20px; }
+h4 {font-size: 18px; }
+h5 {font-size: 16px; }
+h6 {font-size: 14px; }
+
+table {border-collapse: collapse; border-spacing: 0;}
+td, th, caption{ font-weight: normal; text-align: left;}
+img, fieldset{ border: 0;}
+ol{list-style: decimal;}
+ul{list-style: square;}
+
+
+body{
+	width: 600px;
+}
+
+#inputItem {
+	font:1em "Open Sans", sans-serif;
+	color:#363639;
+	border:0;
+	border-bottom:1px dashed #ccc;
+	padding: 15px 0;
+}
+
+
+.username {
+	font:1em "Open Sans", sans-serif;
+	color:#363639;
+	border:0;
+	border-bottom:1px dashed #ccc;
+}
+
+a{
+	text-decoration: none;
+	border-bottom:1px dashed #363639;
+}
+
+
+.list{
+	background-color: #fff;
+	margin:20px auto;
+	//width: 100%;
+	width: 600px;
+	max-width: 600px;
+	padding: 2px;
+	border-radius: 3px 4px 0 rgba(0, 0, 0, .1);
+	box-sizing: border-box;
+}
+
+.list .header{
+	font-family: "Shadows Into Light Two", cursive;
+	margin:0 0 30px 0;
+}
+
+.header{
+	font-family: "Shadows Into Light Two", cursive;
+	margin:0 0 30px 0;
+}
+
+.items {
+	margin:0;
+	padding:0;
+	list-style-type: none;
+}
+
+.items li:hover .done-button{
+	opacity:1;
+}
+
+.items li:hover .edit-button{
+	opacity:1;
+}
+
+.items li:hover .delete-button{
+	opacity:1;
+}
+
+.items .id{
+	color: transparent;
+}
+
+.items .done{
+	text-decoration:line-through;
+}
+
+#inputItem{
+	width:100%;
+}
+
+.items li,
+.item-add #inputItem{
+	border:0;
+	border-bottom:1px dashed #ccc;
+	padding: 15px 0;
+}
+
+#inputItem:focus{
+	outline:none;
+}
+
+.done-button {
+	display: inline-block;
+	font-size:0.8em;
+	background-color: #d9dfe1;
+	color: #363693;
+	padding:3px 6px;
+	border:0;
+	opacity: 0.4;
+}
+
+.edit-button {
+	display: inline-block;
+	font-size:0.8em;
+	background-color: #d9dfe1;
+	color: #363693;
+	padding:3px 6px;
+	border:0;
+	opacity: 0.4;
+}
+
+.delete-button {
+	display: inline-block;
+	font-size:0.8em;
+	background-color: #d9dfe1;
+	color: #363693;
+	padding:3px 6px;
+	border:0;
+	opacity: 0.4;
+}
+
+.submitNote{
+	background-color:#fff;
+	padding: 5px 10px;
+	border: 1px solid #ddd;
+	width: 100%;
+	margin-top:10px;
+	box-shadow: 3px 3px 0 #ddd;
+}
+
+
+/*chatbox styling*/
+.cont .header{
+	margin: 50px;
+	font-family: "Shadows Into Light Two", cursive;
+}
+
+
+.chatBox{
+	border: 1px solid #000;
+	width: 500px;
+	margin: 50px;
+	background-color: #cccccc;
+}
+
+
+
+.chatBox .user {
+	text-align:right;
+	padding: 5px;
+}
+
+.user input#signIn {
+	color: blue;
+	text-decoration: none;
+	background: none;
+	border: none;
+}
+
+.user input#signIn:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.user input{
+	margin-right: 5px;
+}
+
+.user .error {
+	color: red;
+	margin-right: 5px;
+}
+
+.chatBox .mainc{
+	background-color: #fff;
+	height: 150px;
+	padding: 0px;
+	overflow: auto;
+}
+
+.chatBox .messageBox{
+	padding: 7px 5px 5px 5px;
+	
+}
+
+#newMessageContent {
+	font: 14px arial, sans-serif;
+	width: 400px;
+	height: 32px;
+}
+
+#newMessageSend{
+	height: 36px;
+	width: 80px;
+	background-color:#fff;
+	padding: 5px 10px;
+	border: 1px solid #ddd;
+	margin-top:0px;
+	box-shadow: 2px 2px 0 #ddd;
+}
+
+.chatBox .messageBox .left{
+	float:left;
+	width: 410px;
+}
+
+#messageBoxSignIn{
+	padding: 8px;
+	width: 100%;
+	background-color:#fff;
+	border: 1px solid #ddd;
+	width: 100%
+	margin-top:10px;
+	box-shadow: 3px 3px 0 #ddd;
+}
+
+/*signinout */
+#signOut{
+	color: blue;
+	text-decoration: none;
+	background: none;
+	border: none;
+}
+
+#signOut:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
